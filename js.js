@@ -400,9 +400,8 @@ window.addEventListener( 'resize', function(){
 	
 	ctx.font = opts.charSize + 'px Verdana';
 })
-
 window.addEventListener("DOMContentLoaded", event => {
 	const audio = document.querySelector("audio");
-	audio.volume = 0.2;
+	audio.volume = 0.8;
 	audio.play();
   });
